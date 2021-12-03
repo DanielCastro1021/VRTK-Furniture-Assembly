@@ -16,6 +16,10 @@ TagManager:
   - SnapCylinder
   - SnapSaucer
   - Head
+  - top-shelf-plank
+  - bottom-shelf-plank
+  - left-side-shelf-plank
+  - right-side-shelf-plank
   layers:
   - Default
   - TransparentFX
