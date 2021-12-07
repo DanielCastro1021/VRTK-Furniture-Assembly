@@ -10,12 +10,12 @@ GameObject:
   m_Component:
   - component: {fileID: 141585834047233438}
   - component: {fileID: 5763011977908852648}
+  - component: {fileID: 5029304786132818612}
   - component: {fileID: 243664935104992270}
   - component: {fileID: 7214398834995621573}
   - component: {fileID: 6791328847975835701}
   - component: {fileID: 693863887612359876}
   - component: {fileID: -8533381991216928866}
-  - component: {fileID: 5029304786132818612}
   m_Layer: 0
   m_Name: left-side-shelf-plank
   m_TagString: left-side-shelf-plank
@@ -50,10 +50,23 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &5029304786132818612
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773725491812927268}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.045, y: 0.68, z: 0.39}
+  m_Center: {x: -0.10249999, y: 0.39475536, z: 0}
 --- !u!114 &243664935104992270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,19 +175,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83a95b4eacfea40a7a697bc08b494002, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!65 &5029304786132818612
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 773725491812927268}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.045, y: 0.68, z: 0.39}
-  m_Center: {x: -0.10249999, y: 0.39475536, z: 0}
+  nextStepObject: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
+    type: 3}
 --- !u!1 &8588673297759076349
 GameObject:
   m_ObjectHideFlags: 0
