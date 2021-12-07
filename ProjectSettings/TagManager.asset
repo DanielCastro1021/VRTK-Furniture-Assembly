@@ -16,10 +16,15 @@ TagManager:
   - SnapCylinder
   - SnapSaucer
   - Head
-  - top-shelf-plank
   - bottom-shelf-plank
   - left-side-shelf-plank
   - right-side-shelf-plank
+  - step-1-sdz
+  - step-1-piece
+  - step-2-sdz
+  - step-2-piece
+  - step-1-step-piece
+  - stepe-2-step-piece
   layers:
   - Default
   - TransparentFX

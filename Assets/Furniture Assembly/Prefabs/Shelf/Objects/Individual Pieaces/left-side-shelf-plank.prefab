@@ -15,10 +15,11 @@ GameObject:
   - component: {fileID: 7214398834995621573}
   - component: {fileID: 6791328847975835701}
   - component: {fileID: 693863887612359876}
-  - component: {fileID: -8533381991216928866}
+  - component: {fileID: 6153086545685823265}
+  - component: {fileID: 1168206513750083375}
   m_Layer: 0
   m_Name: left-side-shelf-plank
-  m_TagString: left-side-shelf-plank
+  m_TagString: step-2-piece
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +115,7 @@ MonoBehaviour:
   allowedTouchControllers: 0
   ignoredColliders: []
   isGrabbable: 1
-  holdButtonToGrab: 0
+  holdButtonToGrab: 1
   stayGrabbedOnTeleport: 1
   validDrop: 1
   grabOverrideButton: 0
@@ -163,7 +164,7 @@ MonoBehaviour:
   intervalOnUse: 0.05
   cancelOnUnuse: 1
   objectToAffect: {fileID: 0}
---- !u!114 &-8533381991216928866
+--- !u!114 &6153086545685823265
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,10 +173,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 773725491812927268}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83a95b4eacfea40a7a697bc08b494002, type: 3}
+  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextStepObject: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
+  precisionGrab: 0
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
+  destroyImmediatelyOnThrow: 1
+  breakForce: 1500
+--- !u!114 &1168206513750083375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773725491812927268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 282907af4445e488a87ed303a4a14b5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stepObject: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
     type: 3}
 --- !u!1 &8588673297759076349
 GameObject:
