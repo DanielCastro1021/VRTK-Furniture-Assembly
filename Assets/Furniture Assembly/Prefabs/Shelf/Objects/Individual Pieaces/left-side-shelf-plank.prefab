@@ -51,7 +51,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 1
+  m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 282907af4445e488a87ed303a4a14b5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stepObject: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
+  stepObject: {fileID: 2924645004953287521, guid: ed4f6b185f3674f6db3aaf6deaad4093,
     type: 3}
 --- !u!1 &8588673297759076349
 GameObject:
@@ -209,7 +209,6 @@ GameObject:
   - component: {fileID: 686578638884302022}
   - component: {fileID: 2400446081431491980}
   - component: {fileID: 1186033156156879128}
-  - component: {fileID: 5161751154388176579}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -278,16 +277,3 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5161751154388176579
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8588673297759076349}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.045, y: 0.68, z: 0.39}
-  m_Center: {x: -0.1025, y: 0.38500002, z: 0}

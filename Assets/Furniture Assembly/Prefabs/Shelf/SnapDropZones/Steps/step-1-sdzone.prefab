@@ -207,7 +207,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7693283179711192104, guid: 087219a2d3e9c44d49afe553f8fc68d1,
           type: 3}
-        m_MethodName: OnStep
+        m_MethodName: OnStep1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

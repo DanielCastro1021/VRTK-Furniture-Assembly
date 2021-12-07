@@ -18,7 +18,7 @@ public class Step1 : MonoBehaviour
 
     }
 
-    public void OnStep()
+    public void OnStep1()
     {
         //Destroy Step 1 Piece
         GameObject[] prefabs_p = GameObject.FindGameObjectsWithTag("step-1-piece");

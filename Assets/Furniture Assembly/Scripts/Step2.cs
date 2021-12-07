@@ -18,8 +18,9 @@ public class Step2 : MonoBehaviour
 
     }
 
-    public void OnStep()
+    public void OnStep2()
     {
+
         //Destroy Step 2 Piece
         GameObject[] prefabs_p = GameObject.FindGameObjectsWithTag("step-2-piece");
         foreach (GameObject prefab_1 in prefabs_p)
@@ -36,7 +37,7 @@ public class Step2 : MonoBehaviour
         }
 
         //Destroy Step 1 Piece
-        GameObject[] prefab_sp = GameObject.FindGameObjectsWithTag("stepe-2-step-piece");
+        GameObject[] prefab_sp = GameObject.FindGameObjectsWithTag("stepe-1-step-piece");
         foreach (GameObject prefab_3 in prefab_sp)
         {
             DestroyImmediate(prefab_3);
