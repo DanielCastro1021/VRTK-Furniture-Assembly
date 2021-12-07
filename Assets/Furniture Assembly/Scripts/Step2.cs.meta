@@ -6,6 +6,8 @@ MonoImporter:
   defaultReferences:
   - stepObject: {fileID: 2924645004953287521, guid: ed4f6b185f3674f6db3aaf6deaad4093,
       type: 3}
+  - previousSDZone: {fileID: 1320684901858001934, guid: 32b79392f7f064bc4b2343dc4394a91c,
+      type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

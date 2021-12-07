@@ -30,6 +30,7 @@ public class Step2 : MonoBehaviour
 
         //Destroy Step 2 SnapDropZone
         GameObject[] prefab_sdz = GameObject.FindGameObjectsWithTag("step-2-sdz");
+
         foreach (GameObject prefab_2 in prefab_sdz)
         {
             DestroyImmediate(prefab_2);
@@ -37,7 +38,7 @@ public class Step2 : MonoBehaviour
         }
 
         //Destroy Step 1 Piece
-        GameObject[] prefab_sp = GameObject.FindGameObjectsWithTag("stepe-1-step-piece");
+        GameObject[] prefab_sp = GameObject.FindGameObjectsWithTag("step-1-step-piece");
         foreach (GameObject prefab_3 in prefab_sp)
         {
             DestroyImmediate(prefab_3);
@@ -45,6 +46,6 @@ public class Step2 : MonoBehaviour
         }
 
         //Instantiate Step 2 Piece
-        Instantiate(stepObject, new Vector3((float)5.538, (float)0.69, (float)3.589), Quaternion.identity);
+        Instantiate(stepObject, new Vector3(5.538f, 0.69f, 3.589f), Quaternion.Euler(0f, 180f, 0f));
     }
 }

@@ -36,7 +36,7 @@ public class Step1 : MonoBehaviour
         }
 
         //Instantiate Step 1 Piece
-        Instantiate(stepObject, new Vector3((float)5.538, (float)0.69, (float)3.589), Quaternion.identity);
+        Instantiate(stepObject, new Vector3(5.538f, 0.69f, 3.589f), Quaternion.identity);
     }
 }
 

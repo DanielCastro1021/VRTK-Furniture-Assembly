@@ -92,7 +92,6 @@ GameObject:
   - component: {fileID: 2479317258768728132}
   - component: {fileID: 3921663337682633862}
   - component: {fileID: 7930652378137099989}
-  - component: {fileID: 2682251476773297630}
   - component: {fileID: 6380746460097643156}
   - component: {fileID: 3045432336159049106}
   m_Layer: 0
@@ -214,26 +213,6 @@ MonoBehaviour:
   intervalOnUse: 0.05
   cancelOnUnuse: 1
   objectToAffect: {fileID: 0}
---- !u!114 &2682251476773297630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5458251605755964477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  precisionGrab: 0
-  rightSnapHandle: {fileID: 0}
-  leftSnapHandle: {fileID: 0}
-  throwVelocityWithAttachDistance: 0
-  throwMultiplier: 1
-  onGrabCollisionDelay: 0
-  destroyImmediatelyOnThrow: 1
-  breakForce: 1500
 --- !u!54 &6380746460097643156
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -270,6 +249,52 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4680447577479083655}
     m_Modifications:
+    - target: {fileID: 3278358140805252827, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120061535999371373, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: OnObjectEnteredSnapDropZone.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120061535999371373, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: OnObjectEnteredSnapDropZone.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120061535999371373, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: OnObjectEnteredSnapDropZone.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1168206513750083375, guid: 54dc808cd3f43408a866b58869aed249,
+        type: 3}
+    - target: {fileID: 4120061535999371373, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: OnObjectEnteredSnapDropZone.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120061535999371373, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: OnObjectEnteredSnapDropZone.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnStep2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4120061535999371373, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: OnObjectEnteredSnapDropZone.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685484084447679845, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: applyScalingOnSnap
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685484084447679845, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: highlightAlwaysActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7724628405372944793, guid: b155cb3104c564f90bd014be2d368d81,
         type: 3}
       propertyPath: m_RootOrder
@@ -278,12 +303,12 @@ PrefabInstance:
     - target: {fileID: 7724628405372944793, guid: b155cb3104c564f90bd014be2d368d81,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.305
+      value: -0.3
       objectReference: {fileID: 0}
     - target: {fileID: 7724628405372944793, guid: b155cb3104c564f90bd014be2d368d81,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7724628405372944793, guid: b155cb3104c564f90bd014be2d368d81,
         type: 3}
