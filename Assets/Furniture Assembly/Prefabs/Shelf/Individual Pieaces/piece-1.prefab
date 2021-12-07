@@ -96,8 +96,8 @@ GameObject:
   - component: {fileID: 2931136265069165926}
   - component: {fileID: 7693283179711192104}
   m_Layer: 0
-  m_Name: bottom-shelf-plank
-  m_TagString: step-1-piece
+  m_Name: piece-1
+  m_TagString: piece-1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7028802409629305811}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.377, y: 0.69, z: 3.589}
+  m_LocalPosition: {x: 0.991, y: 0.69, z: 3.551}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7111384004512718897}

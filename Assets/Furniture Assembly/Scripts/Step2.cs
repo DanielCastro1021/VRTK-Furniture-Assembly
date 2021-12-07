@@ -21,15 +21,15 @@ public class Step2 : MonoBehaviour
     public void OnStep2()
     {
 
-        //Destroy Step 2 Piece
-        GameObject[] prefabs_p = GameObject.FindGameObjectsWithTag("step-2-piece");
+        //Destroy Piece 2
+        GameObject[] prefabs_p = GameObject.FindGameObjectsWithTag("piece-2");
         foreach (GameObject prefab_1 in prefabs_p)
         {
             DestroyImmediate(prefab_1);
         }
 
-        //Destroy Step 2 SnapDropZone
-        GameObject[] prefab_sdz = GameObject.FindGameObjectsWithTag("step-2-sdz");
+        //Destroy SnapDropZone 2
+        GameObject[] prefab_sdz = GameObject.FindGameObjectsWithTag("sdzone-2");
 
         foreach (GameObject prefab_2 in prefab_sdz)
         {
@@ -37,15 +37,15 @@ public class Step2 : MonoBehaviour
 
         }
 
-        //Destroy Step 1 Piece
-        GameObject[] prefab_sp = GameObject.FindGameObjectsWithTag("step-1-step-piece");
+        //Destroy Step Piece 1
+        GameObject[] prefab_sp = GameObject.FindGameObjectsWithTag("step-piece-1");
         foreach (GameObject prefab_3 in prefab_sp)
         {
             DestroyImmediate(prefab_3);
 
         }
 
-        //Instantiate Step 2 Piece
+        //Instantiate Step Piece 2
         Instantiate(stepObject, new Vector3(5.538f, 0.69f, 3.589f), Quaternion.Euler(0f, 180f, 0f));
     }
 }

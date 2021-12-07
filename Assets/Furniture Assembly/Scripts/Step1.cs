@@ -20,22 +20,22 @@ public class Step1 : MonoBehaviour
 
     public void OnStep1()
     {
-        //Destroy Step 1 Piece
-        GameObject[] prefabs_p = GameObject.FindGameObjectsWithTag("step-1-piece");
+        //Destroy Piece 1
+        GameObject[] prefabs_p = GameObject.FindGameObjectsWithTag("piece-1");
         foreach (GameObject prefab_1 in prefabs_p)
         {
             DestroyImmediate(prefab_1);
         }
 
-        //Destroy Step 1 SnapDropZone
-        GameObject[] prefab_sdz = GameObject.FindGameObjectsWithTag("step-1-sdz");
+        //Destroy SnapDropZone 1 
+        GameObject[] prefab_sdz = GameObject.FindGameObjectsWithTag("sdzone-1");
         foreach (GameObject prefab_2 in prefab_sdz)
         {
             DestroyImmediate(prefab_2);
 
         }
 
-        //Instantiate Step 1 Piece
+        //Instantiate Step Piece 1
         Instantiate(stepObject, new Vector3(5.538f, 0.69f, 3.589f), Quaternion.identity);
     }
 }

@@ -19,12 +19,27 @@ TagManager:
   - bottom-shelf-plank
   - left-side-shelf-plank
   - right-side-shelf-plank
-  - step-1-sdz
-  - step-1-piece
-  - step-2-sdz
-  - step-2-piece
-  - step-1-step-piece
-  - stepe-2-step-piece
+  - piece-1
+  - piece-2
+  - piece-3
+  - piece-4
+  - piece-5
+  - piece-6
+  - piece-7
+  - sdzone-1
+  - sdzone-2
+  - sdzone-3
+  - sdzone-4
+  - sdzone-5
+  - sdzone-6
+  - sdzone-7
+  - step-piece-1
+  - step-piece-2
+  - step-piece-3
+  - step-piece-4
+  - step-piece-5
+  - step-piece-6
+  - step-piece-7
   layers:
   - Default
   - TransparentFX
