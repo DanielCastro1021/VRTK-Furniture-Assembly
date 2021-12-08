@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 83a95b4eacfea40a7a697bc08b494002
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stepObject: {fileID: 5458251605755964477, guid: 984fe08b4043d4d5d972c14e0aedd817,
+      type: 3}
+  - stepUIObject: {fileID: 1678482369823558, guid: 55bcebf0300be464cb5f7ef8d78bb36d,
+      type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

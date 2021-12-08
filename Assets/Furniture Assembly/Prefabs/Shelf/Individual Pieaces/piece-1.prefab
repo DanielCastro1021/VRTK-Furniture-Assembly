@@ -256,3 +256,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   stepObject: {fileID: 5458251605755964477, guid: 984fe08b4043d4d5d972c14e0aedd817,
     type: 3}
+  stepText: {fileID: 0}
