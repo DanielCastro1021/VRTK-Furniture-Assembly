@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 3416100742010586505}
   - component: {fileID: 7927653623070168739}
   - component: {fileID: 6163132475530841697}
-  - component: {fileID: 8685453525382575818}
   m_Layer: 0
   m_Name: piece-5
   m_TagString: piece-5
@@ -263,17 +262,3 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!114 &8685453525382575818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5596641323366458514}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1699fe8dd3bbc494697b9072e717eba3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stepObject: {fileID: 5763625143329116771, guid: bda317cbc539246128b7f96f46aa2ec4,
-    type: 3}

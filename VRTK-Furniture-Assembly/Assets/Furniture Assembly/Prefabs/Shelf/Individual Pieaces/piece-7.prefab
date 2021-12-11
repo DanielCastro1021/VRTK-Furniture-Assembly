@@ -16,7 +16,6 @@ GameObject:
   - component: {fileID: 7426234776268394131}
   - component: {fileID: 6937528303419166092}
   - component: {fileID: -3864937516239356092}
-  - component: {fileID: 2245429861701771670}
   m_Layer: 0
   m_Name: piece-7
   m_TagString: piece-7
@@ -184,20 +183,6 @@ MonoBehaviour:
   onGrabCollisionDelay: 0
   destroyImmediatelyOnThrow: 1
   breakForce: 1500
---- !u!114 &2245429861701771670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2981703282137742137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 03c7c564f43474c3096e5b4463c59383, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stepObject: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
-    type: 3}
 --- !u!1 &6119521862416122848
 GameObject:
   m_ObjectHideFlags: 0

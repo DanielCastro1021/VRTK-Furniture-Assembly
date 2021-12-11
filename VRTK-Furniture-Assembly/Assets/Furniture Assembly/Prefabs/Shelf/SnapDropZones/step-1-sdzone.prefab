@@ -77,7 +77,7 @@ GameObject:
   - component: {fileID: 1320684901858001932}
   - component: {fileID: 1320684901858001930}
   - component: {fileID: 1320684901858001931}
-  - component: {fileID: 4505444164732666807}
+  - component: {fileID: 1230047361827494809}
   m_Layer: 0
   m_Name: step-1-sdzone
   m_TagString: sdzone-1
@@ -184,7 +184,7 @@ MonoBehaviour:
   checkType: 1
   identifiers:
   - piece-1
---- !u!114 &4505444164732666807
+--- !u!114 &1230047361827494809
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -193,33 +193,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 1320684901858001934}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bfac5512b3c9b7e40b8384efa162bf18, type: 3}
+  m_Script: {fileID: 11500000, guid: 8893f08fa42fc4fa387124536af52eed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OnObjectEnteredSnapDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-  OnObjectExitedSnapDropZone:
-    m_PersistentCalls:
-      m_Calls: []
-  OnObjectSnappedToDropZone:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 7693283179711192104, guid: 087219a2d3e9c44d49afe553f8fc68d1,
-          type: 3}
-        m_MethodName: OnStep1
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnObjectUnsnappedFromDropZone:
-    m_PersistentCalls:
-      m_Calls: []
+  stepController: {fileID: 3570785144564686955, guid: 626b9bf1f1a6e426693c1495b44bcd94,
+    type: 3}
+  stepPiece1: {fileID: 5458251605755964477, guid: 984fe08b4043d4d5d972c14e0aedd817,
+    type: 3}
+  stepPiece2: {fileID: 2924645004953287521, guid: ed4f6b185f3674f6db3aaf6deaad4093,
+    type: 3}
+  stepPiece3: {fileID: 3796917824801853437, guid: 04bb93cfaee5b4416b2a86552f89d9de,
+    type: 3}
+  stepPiece4: {fileID: 2649556739534273165, guid: 112febf39edc74b7285b005a7af9992b,
+    type: 3}
+  stepPiece5: {fileID: 5763625143329116771, guid: bda317cbc539246128b7f96f46aa2ec4,
+    type: 3}
+  stepPiece6: {fileID: 7744859629744539515, guid: 20b42a82722534d8abe567f1e5533736,
+    type: 3}
+  stepPiece7: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
+    type: 3}
 --- !u!1 &1320684902157257560
 GameObject:
   m_ObjectHideFlags: 0
