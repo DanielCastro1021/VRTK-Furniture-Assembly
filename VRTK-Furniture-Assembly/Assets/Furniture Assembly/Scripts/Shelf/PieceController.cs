@@ -113,7 +113,7 @@
                     break;
 
                 case "step-piece-7":
-                    //To-Do
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
             }
         }

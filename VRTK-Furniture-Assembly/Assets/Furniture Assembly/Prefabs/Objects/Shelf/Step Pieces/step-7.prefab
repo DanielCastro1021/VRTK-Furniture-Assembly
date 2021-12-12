@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4545196437052604623}
   - component: {fileID: 619691654888341841}
   - component: {fileID: 982594916405312397}
+  - component: {fileID: 6028323479294239193}
   m_Layer: 0
   m_Name: step-7
   m_TagString: step-piece-7
@@ -162,6 +163,26 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.77, y: 0.77, z: 0.39}
   m_Center: {x: 0, y: 0.385, z: 0}
+--- !u!114 &6028323479294239193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 570528339035039259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8afa0b205791c9f4496bf2814aeac078, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  precisionGrab: 0
+  rightSnapHandle: {fileID: 0}
+  leftSnapHandle: {fileID: 0}
+  throwVelocityWithAttachDistance: 0
+  throwMultiplier: 1
+  onGrabCollisionDelay: 0
+  destroyImmediatelyOnThrow: 1
+  breakForce: 1500
 --- !u!1 &8820061689297329858
 GameObject:
   m_ObjectHideFlags: 0

@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 8548296978554112622}
   m_Layer: 0
   m_Name: spawn-piece-7
-  m_TagString: Untagged
+  m_TagString: ExcludeTeleport
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,7 +421,7 @@ PrefabInstance:
     - target: {fileID: 224861586572071280, guid: 55bcebf0300be464cb5f7ef8d78bb36d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.657
+      value: 0.344
       objectReference: {fileID: 0}
     - target: {fileID: 224861586572071280, guid: 55bcebf0300be464cb5f7ef8d78bb36d,
         type: 3}

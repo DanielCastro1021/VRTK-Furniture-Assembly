@@ -8,6 +8,7 @@
     public class StepController : MonoBehaviour
     {
         [SerializeField] private GameObject stepUI;
+        [SerializeField] private GameObject sdzone;
         private GameObject stepText;
         private int currentStep;
 
@@ -15,6 +16,7 @@
         void Start()
         {
             this.stepText = this.stepUI.transform.GetChild(1).gameObject;
+            this.sdzone.SetActive(false);
             this.startSteps();
         }
 
@@ -34,6 +36,9 @@
         {
             currentStep++;
             this.stepText.GetComponent<Text>().text = this.getStepText();
+            if (currentStep == 9) {
+                this.sdzone.SetActive(true);
+            }
         }
 
         public void checkOnObjectEnteredSnapDropZone(string tag)
@@ -151,7 +156,10 @@
                     text = "Colocar uma peça do tipo 'Piece 7' na zona assinalada.";
                     break;
                 case 8:
-                    text = "Colocar a estante na parede.";
+                    text = "Colocar a estante na zona assinalada, na parede.";
+                    break;
+                case 9:
+                    text = "Parabéns terminou o tutorial de montagem.";
                     break;
             }
             return text;
