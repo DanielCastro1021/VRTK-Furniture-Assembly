@@ -19,6 +19,7 @@
         [SerializeField] private GameObject stepPiece5;
         [SerializeField] private GameObject stepPiece6;
         [SerializeField] private GameObject stepPiece7;
+        [SerializeField] private GameObject finalSnapDropZone;
 
 
         // Start is called before the first frame update
@@ -114,6 +115,10 @@
 
                 case "step-piece-7":
                     this.stepController.GetComponent<StepController>().nextStep();
+                    if (this.stepController.GetComponent<StepController>().getCurrentStep() == 8)
+                    {
+                        Instantiate(this.stepPiece7, new Vector3(3.779367f, 2.684f, -0.6045485f), Quaternion.Euler(0, -90f, 0));
+                    }
                     break;
             }
         }

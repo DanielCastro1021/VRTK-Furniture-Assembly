@@ -401,3 +401,4 @@ MonoBehaviour:
     type: 3}
   stepPiece7: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
     type: 3}
+  finalSnapDropZone: {fileID: 8042850139597809952}
