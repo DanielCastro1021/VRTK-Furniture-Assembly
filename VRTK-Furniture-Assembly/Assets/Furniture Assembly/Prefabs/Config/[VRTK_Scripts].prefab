@@ -1266,7 +1266,7 @@ GameObject:
   - component: {fileID: 2352411647991538255}
   - component: {fileID: 2352411647991538248}
   m_Layer: 0
-  m_Name: LeftControllerScriptAlias
+  m_Name: LeftControllerScript
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3596,7 +3596,7 @@ GameObject:
   - component: {fileID: 2352411649290914056}
   - component: {fileID: 2352411649290914057}
   m_Layer: 0
-  m_Name: RightControllerScriptAlias
+  m_Name: RightControllerScript
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
