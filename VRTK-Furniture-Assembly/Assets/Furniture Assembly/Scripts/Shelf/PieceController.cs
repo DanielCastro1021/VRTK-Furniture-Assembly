@@ -27,7 +27,6 @@
         {
             this.stepController = GameObject.Find("StepController");
             this.sdzone = gameObject;
-            this.sdzone.GetComponent<VRTK_SnapDropZone>().ObjectEnteredSnapDropZone += new SnapDropZoneEventHandler(this.OnObjectEnteredSnapDropZone);
             this.sdzone.GetComponent<VRTK_SnapDropZone>().ObjectSnappedToDropZone += new SnapDropZoneEventHandler(this.OnObjectSnappedToDropZone);
         }
 
@@ -36,13 +35,6 @@
         {
 
         }
-
-        private void OnObjectEnteredSnapDropZone(object sender, SnapDropZoneEventArgs e)
-        {
-            Debug.Log(e.snappedObject.tag);
-            this.stepController.GetComponent<StepController>().checkOnObjectEnteredSnapDropZone(e.snappedObject.tag);
-        }
-
         private void OnObjectSnappedToDropZone(object sender, SnapDropZoneEventArgs e)
         {
             string tag = e.snappedObject.tag;
@@ -52,75 +44,73 @@
             switch (tag)
             {
                 case "piece-1":
-                    this.stepController.GetComponent<StepController>().nextStep();
                     position = this.sdzone.transform.position;
                     DestroyImmediate(e.snappedObject);
                     DestroyImmediate(this.sdzone);
                     Instantiate(this.stepPiece1, position, Quaternion.identity);
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
                 case "piece-2":
-                    this.stepController.GetComponent<StepController>().nextStep();
                     position = this.transform.parent.position;
                     rotation = this.transform.parent.rotation;
                     rotation *= Quaternion.Euler(0, 180f, 0);
                     DestroyImmediate(e.snappedObject);
                     DestroyImmediate(this.transform.parent.gameObject);
                     Instantiate(this.stepPiece2, position, rotation);
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
 
                 case "piece-3":
-                    this.stepController.GetComponent<StepController>().nextStep();
                     position = this.transform.parent.position;
                     rotation = this.transform.parent.rotation;
                     DestroyImmediate(e.snappedObject);
                     DestroyImmediate(this.transform.parent.gameObject);
                     Instantiate(this.stepPiece3, position, rotation);
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
 
                 case "piece-4":
-                    this.stepController.GetComponent<StepController>().nextStep();
                     position = this.transform.parent.position;
                     rotation = this.transform.parent.rotation;
                     DestroyImmediate(e.snappedObject);
                     DestroyImmediate(this.transform.parent.gameObject);
                     Instantiate(this.stepPiece4, position, rotation);
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
 
                 case "piece-5":
-                    this.stepController.GetComponent<StepController>().nextStep();
                     position = this.transform.parent.position;
                     rotation = this.transform.parent.rotation;
                     DestroyImmediate(e.snappedObject);
                     DestroyImmediate(this.transform.parent.gameObject);
                     Instantiate(this.stepPiece5, position, rotation);
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
 
                 case "piece-6":
-                    this.stepController.GetComponent<StepController>().nextStep();
                     position = this.transform.parent.position;
                     rotation = this.transform.parent.rotation;
                     DestroyImmediate(e.snappedObject);
                     DestroyImmediate(this.transform.parent.gameObject);
                     Instantiate(this.stepPiece6, position, rotation);
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
 
                 case "piece-7":
-                    this.stepController.GetComponent<StepController>().nextStep();
                     position = this.transform.parent.position;
                     rotation = this.transform.parent.rotation;
                     DestroyImmediate(e.snappedObject);
                     DestroyImmediate(this.transform.parent.gameObject);
                     Instantiate(this.stepPiece7, position, rotation);
+                    Instantiate(this.finalSnapDropZone, new Vector3(-7.24f, 0.92f, 0.16f), Quaternion.Euler(0, -90f, 0));
+                    this.stepController.GetComponent<StepController>().nextStep();
                     break;
 
                 case "step-piece-7":
                     this.stepController.GetComponent<StepController>().nextStep();
-                    if (this.stepController.GetComponent<StepController>().getCurrentStep() == 8)
-                    {
-                        Instantiate(this.stepPiece7, new Vector3(3.779367f, 2.684f, -0.6045485f), Quaternion.Euler(0, -90f, 0));
-                    }
                     break;
             }
+           
         }
     }
 }

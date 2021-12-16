@@ -249,6 +249,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6931202966571425217}
     m_Modifications:
+    - target: {fileID: -7004973294525708097, guid: a4a49a25dc9ad456c99625780574336f,
+        type: 3}
+      propertyPath: stepPiece6
+      value: 
+      objectReference: {fileID: 7744859629744539515}
     - target: {fileID: 5508697115986202031, guid: a4a49a25dc9ad456c99625780574336f,
         type: 3}
       propertyPath: m_RootOrder
@@ -308,6 +313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: step-7-sdzone
+      objectReference: {fileID: 0}
+    - target: {fileID: 5594450271758572285, guid: a4a49a25dc9ad456c99625780574336f,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 5671978749818382081, guid: a4a49a25dc9ad456c99625780574336f,
         type: 3}

@@ -35,7 +35,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 3147323158812496003}
-  - {fileID: 256539715944046317}
+  - {fileID: 271020084770715075}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -256,7 +256,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!1001 &4140970404284302678
+--- !u!1001 &4123639691148488312
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -268,11 +268,6 @@ PrefabInstance:
       propertyPath: stepPiece2
       value: 
       objectReference: {fileID: 2924645004953287521}
-    - target: {fileID: 3327885944490199305, guid: b850d8c37d536430396ab5220d208808,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4248441850564392399, guid: b850d8c37d536430396ab5220d208808,
         type: 3}
       propertyPath: m_Name
@@ -333,31 +328,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4263060641742851305, guid: b850d8c37d536430396ab5220d208808,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.497051
-      objectReference: {fileID: 0}
-    - target: {fileID: 4263060641742851305, guid: b850d8c37d536430396ab5220d208808,
-        type: 3}
-      propertyPath: m_Center.x
-      value: 0.2519292
-      objectReference: {fileID: 0}
-    - target: {fileID: 4263060641742851305, guid: b850d8c37d536430396ab5220d208808,
-        type: 3}
-      propertyPath: m_Center.z
-      value: 0.028045788
-      objectReference: {fileID: 0}
-    - target: {fileID: 4279528718412795719, guid: b850d8c37d536430396ab5220d208808,
-        type: 3}
-      propertyPath: highlightAlwaysActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b850d8c37d536430396ab5220d208808, type: 3}
---- !u!4 &256539715944046317 stripped
+--- !u!4 &271020084770715075 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4249365221884976059, guid: b850d8c37d536430396ab5220d208808,
     type: 3}
-  m_PrefabInstance: {fileID: 4140970404284302678}
+  m_PrefabInstance: {fileID: 4123639691148488312}
   m_PrefabAsset: {fileID: 0}

@@ -291,6 +291,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3426902305555800119}
     m_Modifications:
+    - target: {fileID: -1877700862777458716, guid: 43e2ab1726f2744eb852f9de4ae1266a,
+        type: 3}
+      propertyPath: stepPiece4
+      value: 
+      objectReference: {fileID: 2649556739534273165}
     - target: {fileID: 4044919497148523995, guid: 43e2ab1726f2744eb852f9de4ae1266a,
         type: 3}
       propertyPath: m_Name
@@ -360,6 +365,16 @@ PrefabInstance:
         type: 3}
       propertyPath: highlightAlwaysActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178883683292667133, guid: 43e2ab1726f2744eb852f9de4ae1266a,
+        type: 3}
+      propertyPath: m_Radius
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4178883683292667133, guid: 43e2ab1726f2744eb852f9de4ae1266a,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43e2ab1726f2744eb852f9de4ae1266a, type: 3}

@@ -269,7 +269,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.25
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.25, z: 0}
 --- !u!54 &7715281443376655258
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -368,6 +368,8 @@ MonoBehaviour:
   stepPiece6: {fileID: 7744859629744539515, guid: 20b42a82722534d8abe567f1e5533736,
     type: 3}
   stepPiece7: {fileID: 570528339035039259, guid: f31e35a239a5e4a4bb10447f4534edd8,
+    type: 3}
+  finalSnapDropZone: {fileID: 8042850139597809952, guid: 23e861749798145f6afa92405f7bfc18,
     type: 3}
 --- !u!1 &8558556955268395552
 GameObject:

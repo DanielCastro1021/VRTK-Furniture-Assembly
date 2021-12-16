@@ -300,6 +300,11 @@ PrefabInstance:
       propertyPath: highlightAlwaysActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7701943356166231755, guid: b155cb3104c564f90bd014be2d368d81,
+        type: 3}
+      propertyPath: m_Center.y
+      value: 0.35
+      objectReference: {fileID: 0}
     - target: {fileID: 7724628405372944793, guid: b155cb3104c564f90bd014be2d368d81,
         type: 3}
       propertyPath: m_RootOrder
